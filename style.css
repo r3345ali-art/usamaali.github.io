@@ -1,0 +1,33 @@
+/* Basic styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcccc;
+    color: #333;
+    text-align: center;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2em;
+    transition: background-color 0.5s ease;
+}
+
+/* Different colors for sections */
+#section1 { background-color: #ff6666; }
+#section2 { background-color: #66ccff; }
+#section3 { background-color: #66ff66; }
